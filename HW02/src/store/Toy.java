@@ -5,7 +5,7 @@ public class Toy {
 		System.out.print("play-");
 	}
 
-	public void finalizer() {
+	public void finalize() {
 		System.out.print("clean-");
 	}
 
@@ -15,5 +15,10 @@ public class Toy {
 		System.gc();
 		Toy doll = new Toy();
 		doll.play();
+
+		car = null;
+		doll = null;
+
+		System.gc();
 	}
 }
