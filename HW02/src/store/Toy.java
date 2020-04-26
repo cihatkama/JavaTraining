@@ -18,7 +18,6 @@ public class Toy {
 
 		car = null;
 		doll = null;
-
 		System.gc();
 	}
 }
