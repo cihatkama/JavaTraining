@@ -8,12 +8,11 @@ public class Q04 { // ThePlan class
 
 		if (plan == 1) {
 			System.out.println("Plan A");
-		} else if (plan == 2) {
-			System.out.println("Plan B");
 		} else {
-			System.out.println("Plan C");
+			if (plan == 2)
+				System.out.print("Plan B");
+			else
+				System.out.print("Plan C");
 		}
-
 	}
-
 }
