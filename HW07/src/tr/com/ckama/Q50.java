@@ -14,7 +14,7 @@ public class Q50 extends Machine50 { // class Robot
 		return false;
 	}
 
-	public static void main(String[] doesNotCompute) throws Exception {
+	public static void main(String[] doesNotCompute) throws IOException {
 		Machine50 m = new Q50();
 		System.out.print(m.turnOn());
 	}
