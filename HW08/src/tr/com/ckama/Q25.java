@@ -1,7 +1,7 @@
 package tr.com.ckama;
 
 public class Q25 {
-	private Boolean[] list = new Boolean[5];// value omitted
+	private Boolean[] list = (Boolean[]) new Object();// value omitted
 
 	public int printTodaysCount() {
 		int count = 0;

@@ -10,8 +10,8 @@ public class Q35 {
 	}
 
 	public static void main(String[] form) {
-		String street = "Posted:350 5th Ave - New York"; // value omitted
-		String city = "Posted:350 5th Ave - New York";// value omitted
+		String street = "350 5th Ave"; // value omitted
+		String city = "New York";// value omitted
 		System.out.print(new Q35().getAddress(street, city));
 	}
 }
