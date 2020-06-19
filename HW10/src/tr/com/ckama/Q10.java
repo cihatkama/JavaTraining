@@ -10,5 +10,6 @@ public class Q10 { // Giggles class
 		System.out.println(lol.toUpperCase().equals(lol.toUpperCase()));
 		System.out.println(lol.toUpperCase().equalsIgnoreCase(lol));
 		System.out.println(lol.toUpperCase().equalsIgnoreCase(lol.toUpperCase()));
+		System.out.println();
 	}
 }
