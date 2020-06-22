@@ -12,7 +12,7 @@ public class Q29 {
 
 	public Q29(int deep) {
 //		super(false);
-		this();
+//		this();
 	}
 
 	public Q29(String now, int... deep) {

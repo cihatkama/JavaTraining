@@ -10,7 +10,7 @@ public class Q21 {
 
 	public void snap(int teeth) {
 		System.out.print(teeth + " ");
-		teeth--;
+		teeth++;
 	}
 
 	public static void main(String[] unused) {
