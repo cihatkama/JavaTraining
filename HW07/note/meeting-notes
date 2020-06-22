@@ -1,0 +1,29 @@
+Soracaðým sorular:
+10: Metot overriding kovaryant dönüþ tipi olmasý ne demektir?
+18: Soyut sýnýflarda alt sýnýfýn nesne referansý, üst sýnýfa atanmaz mý? ClassCastException hakkýnda bilgiye ihtiyacým var.
+	Abstract classlar new'lenemezler.
+
+22: Soruyu anlamadým.
+	must be dediði için yanlýþ. superclass olabilir.
+
+31: Yanlýþ yaptým. Üst sýnýfýn metodundaki static'i mi kaldýrmak gerekir, alt sýnýfýn metodundaki static'i mi?
+	Concrete classlar bir metot override ederken static ise static olarak edebilir.
+
+38: Sanal metot ne demektir?
+	non-final, non-static, non-private
+	Virtual'dan kasýt, bir metodun nasýl icra edileceðinin compile-time'da deðil, runtime'da belirlenmesidir.
+	final olursa, constant'týr deðiþtirilemez.
+	private ise baþka classtan eriþilmez.
+	static metotlar class metottur. static metotlar, override deðil, hide olur. 
+
+41: Yanlýþ yaptým. Override eden metot neden D seçeneðindeki?
+	ya ayný exception atar ya da atmaz. private olamaz.
+	override prensiplerini gözden geçir.
+
+Hatalý sorular:
+14: Geçersiz bir main() metodu yapýldýðý için soru hatalýdýr.
+40: Ekran çýktýsý 2.0 olacaktýr.
+
+Abstract class'lar instantiate edilemeyen sýnýflardýr.
+Interface'ler içinde tanýmlanan tüm metotlar public ve abstract'týr.
+Kovaryant konusu primitive olmayan Object türler için geçerli. Alt sýnýftaki tipin eþit ya da daha dar olmasý(kovaryantý/subclassý) gerekir.
